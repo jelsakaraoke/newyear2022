@@ -1,0 +1,75 @@
+.modal {
+    display: none;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+    background: rgba(11, 7, 3, 0.69);
+    justify-content: center;
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+}
+.modalContent {
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    direction: rtl;
+    justify-content: center;
+    align-items: center;
+}
+.modalContent .age {
+    display: flex;
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    align-items: center;
+}
+.modalContent .age h5 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.modalClose {
+    color: #ffc19b1f;
+    font-size: 60px;
+    margin-left: 50%;
+    position: sticky;
+    transition: 1s;
+}
+.modalClose:hover, .modalClose:focus {
+    color: #FFC29B;
+    text-decoration: none;
+    cursor: pointer;
+    transform: rotate3d(1,1,0, 180deg);
+}
+.ageButtons {
+    direction: initial;
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ageButtons18above {
+    margin-right: 20px;
+}
+.ageButtonAsk {
+    font-family: 'SF Pro Display';
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.16);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: 500ms;
+}
+.ageButtonAsk:hover {
+    background: rgba(224, 224, 224, 0.16);
+    color: black;
+}
