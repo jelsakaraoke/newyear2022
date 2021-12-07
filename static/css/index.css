@@ -377,6 +377,14 @@ summary {
     #avatar_side {
         margin-top: 5%;
     }
+    .skills_info_block span, .education_info_lang span, .education_info_block span {
+        font-family: 'SF Pro Display';
+        font-weight: 100;
+    }
+    .personal_info_block ul li, .skills_info_block ul li, .education_info_lang ul li, .education_info_block ul li {
+        font-family: 'SF Pro Display';
+        font-weight: 100;
+    }
     h1 {
         margin-left: 0px;
     }
