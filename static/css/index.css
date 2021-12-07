@@ -491,6 +491,23 @@ summary {
             color:#0000ff00; 
             background-color:#cccccc00;
         }
+        video {
+            display: none;
+        }
+    }
+    video {
+        display: none;
+    }
+}
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+    @media {
+        .safari6 { 
+            color:#0000FF; 
+            background-color:#CCCCCC; 
+        }
+        video {
+            display: none;
+        }
     }
     video {
         display: none;
