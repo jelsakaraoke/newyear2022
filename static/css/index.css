@@ -535,6 +535,10 @@ summary {
     .chrome {
         property: value;
     }
+    body {
+        height: 100%;
+        width: 100%;
+    }
     video {
         object-fit: cover;
         width: 100vw;
@@ -543,11 +547,11 @@ summary {
         top: 0;
         left: 0;
     }
-    h1 {
+    #main_side h1 {
         font-family: 'SF Pro Display';
         font-weight: 100;
     }
-    h4 {
+    #main_side h4 {
         font-family: 'SF Pro Display';
         font-weight: 100;
     }
