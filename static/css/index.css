@@ -290,6 +290,7 @@ hr {
 .skills_info_block ul, .education_info_lang ul, .education_info_block ul {
     padding: 0;
     margin-left: 20px;
+    margin-right: 20px;
 }
 .skills_info_block ul {
     margin-top: 5px;
