@@ -555,15 +555,18 @@ summary {
         top: 0;
         left: 0;
     }
-    #main_side h1 {
+    #main_side h1, #main_side h4 {
         font-family: 'SF Pro Display';
         font-weight: 100;
     }
-    #main_side h4 {
+    #main_side .greetings h4 {
         font-family: 'Bad Script', cursive;
         font-weight: 400;
     }
-    #main_side .greetings h4 {
+    .greetings {
+        text-align: center;
+    }
+    .greetings h4 {
         font-family: 'Bad Script', cursive;
         font-weight: 400;
     }
