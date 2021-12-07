@@ -7,9 +7,9 @@ body {
     grid-template-columns: 5% 1fr 5%;
     grid-column-gap: 0%;
     background: rgba(29, 46, 48) url(../video/IMG_6112.MOV) no-repeat center center;
-    -webkit-background: rgba(29, 46, 48) url(../video/IMG_6112.MOV) no-repeat center center;
+    -webkit-background: rgba(29, 46, 48), url(../video/IMG_6112.MOV) no-repeat center center;
     -webkit-background-size: cover;
-    -ms-background: rgba(29, 46, 48) url(../video/IMG_6112.MOV) no-repeat center center;
+    -ms-background: rgba(29, 46, 48), url(../video/IMG_6112.MOV) no-repeat center center;
     background-size: cover;
     justify-content: center;
     margin:0;
