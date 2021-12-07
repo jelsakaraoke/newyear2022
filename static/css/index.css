@@ -145,6 +145,23 @@ hr {
     font-family: Gill Sans;
     font-weight: lighter;
 }
+.destination {
+    color: rgba(29, 46, 48);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    box-shadow: -50px 0 47px -16px rgba(29, 46, 48, 0.48) inset,
+                -50px 0 29px -9px rgb(255, 189, 0) inset;
+    transition: 0.5s;
+}
+.destination:hover {
+    color: goldenrod;
+    box-shadow: -50px 0 47px -16px rgba(0, 228, 255, 0.48) inset,
+                -50px 0 72px 25px rgba(29, 46, 48) inset;
+}
 .dishes a{
     color: goldenrod;
     line-height: 3em;
