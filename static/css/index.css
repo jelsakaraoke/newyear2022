@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 body {
     font-family: 'SF Pro Display';
     display: grid;
@@ -138,6 +139,13 @@ hr {
     background-color: goldenrod;
     height: 1px;
     border: none;
+}
+.greetings {
+    text-align: center;
+}
+.greetings h4 {
+    font-family: 'Snell Roundhand';
+    font-weight: lighter;
 }
 .dishes {
     list-style: none;
@@ -552,8 +560,12 @@ summary {
         font-weight: 100;
     }
     #main_side h4 {
-        font-family: 'SF Pro Display';
-        font-weight: 100;
+        font-family: 'Bad Script', cursive;
+        font-weight: 400;
+    }
+    #main_side .greetings h4 {
+        font-family: 'Bad Script', cursive;
+        font-weight: 400;
     }
     #left_aside, #info, #right_aside {
         position: relative;
